@@ -36,7 +36,7 @@ export const features = [
     icon: "check.svg",
   },
   {
-    name: "Con albañiles es más barato",
+    name: "Mano de obra",
     description:
       "Construir sin un análisis de precios es como ir de compras sin lista. ¡Puedes gastar más de lo que tenías pensado! Evita sorpresas desagradables y planifica tu presupuesto con inteligencia.",
     icon: "apu.svg",
