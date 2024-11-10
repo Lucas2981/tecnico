@@ -6,7 +6,7 @@ const Hero = () => {
       {/* LEFT */}
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         <Image
-          src="/casco.jpg"
+          src="casco.jpg"
           alt="Logo"
           width={32}
           height={29}
@@ -21,7 +21,7 @@ const Hero = () => {
         <Image
           className="object-cover object-center rounded"
           alt="hero"
-          src="/casa-plano.jpg"
+          src="casa-plano.jpg"
           width={720}
           height={600}
         />

@@ -31,7 +31,7 @@ const Mision = () => {
           target="_blank">
           <Button
             type="submit"
-            icon="/wsp.svg"
+            icon="wsp.svg"
             title="Contáctenos"
             variant="btn_green"
           />
