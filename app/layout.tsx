@@ -5,8 +5,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Inspector",
-  description: "Inspector de obras",
+  title: "TecniCo constructor",
+  description:
+    "Tu maestro mayor de obras en el Valle Central de Catamarca, ¿a cuanto esta el m2 de construcción? ¿cuanto sale un albañil?",
 };
 
 export default function RootLayout({

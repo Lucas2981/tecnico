@@ -127,7 +127,10 @@ body {
   .bold-16 {
     @apply text-[16px] font-[700];
   }
-
+  /* Color bg */
+  .bg-ppal {
+    @apply bg-gradient-to-r from-teal-500 to-sky-600;
+  }
   /* Hero */
   .hero-home {
     @apply absolute right-0 top-0 h-screen w-screen bg-home bg-cover bg-center bg-clip-padding md:-right-28 xl:-top-60;

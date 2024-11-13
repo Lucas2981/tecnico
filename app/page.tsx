@@ -8,7 +8,7 @@ import Price from "@/components/Price";
 
 export default function Home() {
   return (
-    <div className="max-container">
+    <>
       <Hero />
       <Mision />
       <Features />
@@ -16,6 +16,6 @@ export default function Home() {
       <Review />
       <Gallery />
       <Contact />
-    </div>
+    </>
   );
 }

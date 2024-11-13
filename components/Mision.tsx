@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Mision = () => {
   return (
-    <section className="border-2 border-red-500">
+    <section className="h-[640px] md:h-[800px]">
       <div className="container mx-auto flex px-5  md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-center mmb-16 md:mb-0 items-center text-center">
           <p className="regular-16 mt-6 text-orange-50 xl:max-w-[520px]">
@@ -31,7 +31,7 @@ const Mision = () => {
           target="_blank">
           <Button
             type="submit"
-            icon="wsp.svg"
+            icon="/wsp.svg"
             title="Contáctenos"
             variant="btn_green"
           />

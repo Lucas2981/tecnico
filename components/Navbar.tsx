@@ -1,24 +1,49 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { NAV_LINKS } from "@/constants";
 import Button from "./Button";
 
+import { useState, useEffect } from "react";
+
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      if (scrollPosition > 100) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="border-2 border-orange-600 flexBetween max-container padding-container relative z-30 py-5">
+    <nav
+      className={`fixed top-0 left-0 w-full flexBetween  z-20 py-5 px-10 shadow-lg  ${
+        isScrolled ? "bg-ppal" : "bg-white"
+      }`}>
       {/* Logo */}
       <Link href="/">
-        {/* <Image src="/casco2.png" alt="Logo" width={32} height={29} /> */}
         <span className="bold-20 text-orange-50">Tecni</span>
         <span className="bold-20 text-blue-500">Co</span>
       </Link>
       {/* Menú */}
-      <ul className="hidden h-full gap-12 lg:flex">
+      <ul className="container-mx-auto hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
           <Link
             href={link.href}
             key={link.key}
-            className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">
+            className={`regular-16  flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold ${
+              isScrolled ? "text-white" : "text-gray-50"
+            }`}>
             {link.label}
           </Link>
         ))}
