@@ -2,7 +2,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section>
-      <div className="bg-sec h-[680px] md:h-[940px] border-4">
+      <div className="bg-sec h-[680px] md:h-[940px]">
         <div className="container relative z-10 mx-auto grid place-items-center text-center">
           <h1 className="text-color-h1 mt-32 px-10 py-5">
             Tu obra, tu sueño, mis números.
