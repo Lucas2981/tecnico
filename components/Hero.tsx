@@ -2,15 +2,15 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section>
-      {/* <div className="hero-home" /> */}
-      <div className="bg-ppal h-[680px] md:h-[940px]">
+      <div className="bg-sec h-[680px] md:h-[940px] border-4">
         <div className="container relative z-10 mx-auto grid place-items-center text-center">
-          <h2 className="bold-52 lg:bold-88 mt-32 text-gray-100 px-10 py-5">
-            Tu proyecto, nuestra pasión
-          </h2>
-          <h1 className="lg:bold-32 bold-18 mt-6 text-gray-100 px-10 py-5 xl:max-w-[520px]">
-            Asesoramiento personalizado en cada etapa de la obra.
+          <h1 className="text-color-h1 mt-32 px-10 py-5">
+            Tu obra, tu sueño, mis números.
           </h1>
+          <h4 className="text-color-h4 mt-6 px-10 py-5 md:max-w-[900px]">
+            # Tu obra en las mejores manos. Yo me encargo de los números para
+            que vos te enfoques en construir
+          </h4>
         </div>
       </div>
     </section>

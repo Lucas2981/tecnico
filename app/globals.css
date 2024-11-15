@@ -15,26 +15,15 @@ body {
 }
 
 @layer utilities {
-  .btn_white {
-    @apply border-white bg-white px-8 py-3 text-green-50;
-  }
-  .btn_white_text {
-    @apply border-white bg-white px-8 py-3 text-gray-90;
-  }
-  .btn_green {
-    @apply border-green-50 bg-green-50 px-8 py-5 text-white;
-  }
-  .btn_dark_green {
-    @apply bg-green-90 px-8 py-4 text-white transition-all hover:bg-black;
-  }
-  .btn_dark_green_outline {
-    @apply border-gray-20 bg-green-90 px-8 py-5 text-white;
-  }
-
   .max-container {
     @apply mx-auto max-w-[1440px];
   }
-
+  .btn_verde_text {
+    @apply text-white  border-4 border-verde-10;
+  }
+  .btn_verde {
+    @apply text-gris-30  bg-verde-10 border-4 border-verde-10;
+  }
   .padding-container {
     @apply px-6 lg:px-20 3xl:px-0;
   }
@@ -115,6 +104,9 @@ body {
   .bold-32 {
     @apply text-[32px] font-[700] leading-[120%];
   }
+  .bold-28 {
+    @apply text-[28px] font-[700] leading-[120%];
+  }
 
   .bold-20 {
     @apply text-[20px] font-[700];
@@ -127,10 +119,45 @@ body {
   .bold-16 {
     @apply text-[16px] font-[700];
   }
-  /* Color bg */
-  .bg-ppal {
+  /* Básicos BG*/
+  .bg-gradient {
     @apply bg-gradient-to-r from-teal-500 to-sky-600;
   }
+  .bg-ppal {
+    @apply bg-gris-30;
+  }
+  .bg-sec {
+    @apply bg-gris-20;
+  }
+  .bg-base {
+    @apply bg-gris-10;
+  }
+  /* Básicos Text */
+  .text-gradient {
+    @apply bg-gradient-to-r from-blue-600 to-rose-600 bg-clip-text text-transparent;
+  }
+  .text-color-h1 {
+    @apply bold-52 lg:bold-88 text-white;
+  }
+  .text-color-h2 {
+    @apply bold-40 lg:bold-64 text-white;
+  }
+  .text-color-h3 {
+    @apply md:bold-28 bold-20 text-gray-200;
+  }
+  .text-color-h4 {
+    @apply md:regular-24 regular-20 text-verde-10;
+  }
+  .text-color-h5 {
+    @apply md:regular-24 regular-20 text-white;
+  }
+  .text-color-h6 {
+    @apply regular-14 text-white;
+  }
+  .text-color-p {
+    @apply regular-16 text-white;
+  }
+
   /* Hero */
   .hero-home {
     @apply absolute right-0 top-0 h-screen w-screen bg-home bg-cover bg-center bg-clip-padding md:-right-28 xl:-top-60;
