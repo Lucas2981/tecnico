@@ -4,8 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { NAV_LINKS } from "@/constants";
 import Button from "./Button";
-
-import { useState, useEffect } from "react";
+import React from "react";
 
 const Navbar = () => {
   return (
@@ -41,7 +40,7 @@ const Navbar = () => {
         alt="Menu"
         width={32}
         height={32}
-        className="inline-block cursor-pointer lg:hidden"
+        className="stroke-cyan-500 h-10 inline-block cursor-pointer lg:hidden"
       />
     </nav>
   );

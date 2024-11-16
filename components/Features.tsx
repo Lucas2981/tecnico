@@ -3,7 +3,7 @@ import { features } from "@/constants";
 
 const Features = () => {
   return (
-    <section className="bg-sec py-20">
+    <section id="servicios" className="bg-sec py-20">
       <div className="container mx-auto md:px-40">
         <h2 className="text-color-h2 text-center">
           Construir al menor precio posible

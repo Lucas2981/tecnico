@@ -4,7 +4,9 @@ import Link from "next/link";
 
 const Mision = () => {
   return (
-    <section className="h-[640px] md:h-[800px] flex-row grid grid-cols-1 justify-center items-center">
+    <section
+      id="mision"
+      className="h-[640px] md:h-[800px] flex-row grid grid-cols-1 justify-center items-center">
       <div className="container mx-auto">
         <div className="flex flex-col items-center">
           <p className="text-color-p text-center md:max-w-[640px]">
