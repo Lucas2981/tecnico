@@ -48,8 +48,15 @@ const Footer = () => {
               <FooterColumn title={SOCIALS.title}>
                 <ul className="regular-14 flex gap-4 text-gray-30">
                   {SOCIALS.links.map((link) => (
-                    <Link href="/" key={link}>
-                      <Image src={link} alt="logo" width={24} height={24} />
+                    <Link href="/" key={link.icon}>
+                      <div className="bg bg-gris-10 rounded-full p-2">
+                        <Image
+                          src={link.icon}
+                          alt="logo"
+                          width={24}
+                          height={24}
+                        />
+                      </div>
                     </Link>
                   ))}
                 </ul>
@@ -60,7 +67,7 @@ const Footer = () => {
 
         <div className="border border-verde-10" />
         <p className="text-color-p w-full text-center">
-          2023 Hilink | All rights reserved
+          2023 TecniCo | Todos los derechos reservados
         </p>
       </div>
     </footer>
