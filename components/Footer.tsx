@@ -67,7 +67,7 @@ const Footer = () => {
 
         <div className="border border-verde-10" />
         <p className="text-color-p w-full text-center">
-          2023 TecniCo | Todos los derechos reservados
+          2024 TecniCo | Todos los derechos reservados
         </p>
       </div>
     </footer>

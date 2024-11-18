@@ -8,8 +8,8 @@ const Hero = () => {
             Tu obra, tu sueño, mis números.
           </h1>
           <h4 className="text-color-h4 mt-6 px-10 py-5 md:max-w-[900px]">
-            # Tu obra en las mejores manos. Yo me encargo de los números para
-            que vos te enfoques en construir
+            # Cotizaciones detalladas, planificación personalizada y dirección
+            técnica.
           </h4>
         </div>
       </div>
