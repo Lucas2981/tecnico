@@ -3,7 +3,7 @@ import CardFeutures from "./CardFeutures";
 const Features = () => {
   return (
     <section id="servicios" className="py-20">
-      <div className="padding-container max-container flex w-full flex-col gap-14">
+      <div className="padding-container max-container flex w-full flex-col gap-14 xl:px-40">
         <h2 className="text-color-h2 text-center">
           Construir al menor precio posible
         </h2>

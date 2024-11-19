@@ -5,15 +5,15 @@ import Image from "next/image";
 const Escala = () => {
   return (
     <div
-      className="bg-gris-20 border-2 border-verde-10 text-white px-2"
+      className="bg-gris-20 border-4 border-verde-10 text-white p-1 rounded-full"
       style={{
         position: "fixed",
-        top: "50%",
-        left: "3%",
+        bottom: "1%",
+        left: "80%",
         transform: "translateY(-50%)",
       }}>
       <Link href="/">
-        <Image src="/up.svg" alt="logo" width={24} height={24} />
+        <Image src="up.svg" alt="logo" width={24} height={24} />
         <span className="hidden xs:block ">xs </span>
         <span className="hidden sm:block">sm </span>
         <span className="hidden md:block">md </span>

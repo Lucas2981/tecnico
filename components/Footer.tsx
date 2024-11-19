@@ -49,7 +49,7 @@ const Footer = () => {
                 <ul className="regular-14 flex gap-4 text-gray-30">
                   {SOCIALS.links.map((link) => (
                     <Link href="/" key={link.icon}>
-                      <div className="bg bg-gris-10 rounded-full p-2">
+                      <div className="bg bg-gris-10 rounded-xl p-2">
                         <Image
                           src={link.icon}
                           alt="logo"
@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
 
         <div className="border border-verde-10" />
-        <p className="text-color-p w-full text-center">
+        <p className="text-color-p w-full text-center pb-10">
           2024 TecniCo | Todos los derechos reservados
         </p>
       </div>
