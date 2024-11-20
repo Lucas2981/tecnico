@@ -22,28 +22,28 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const features = [
   {
-    name: "Presupuestos de Obras",
+    name: "Cotización Detallada",
     description:
-      "Construir sin un presupuesto detallado, es como ir de compras sin lista. ¡Puedes gastar más de lo que tenías pensado! Evita sorpresas desagradables y planifica tu presupuesto con inteligencia.",
+      "¿Sueñas con una nueva casa o una remodelación espectacular? No dejes que los imprevistos arruinen tus planes. Con nuestro servicio de presupuestos personalizados, tendrás el control total de tu proyecto desde el principio.",
     icon: "money.svg",
   },
   {
-    name: "Planes de Trabajo",
+    name: "Cálculo de Insumos",
     description:
-      "¿Sabías que un plan de obra es como un mapa para tu proyecto? Te indica el camino, te ayuda a evitar imprevistos y garantiza que tu obra se termine a tiempo y dentro del presupuesto. ¿Que esperas por el tuyo?",
+      "¿Construir de manera eficiente y sin contratiempos? Nuestro detalle de insumos te brinda la información que necesitas para optimizar tus compras y evitar pérdidas de tiempo.",
+    icon: "list-check.svg",
+  },
+  {
+    name: "Planificación Eficiente",
+    description:
+      "¿Una construcción sin sobresaltos? Un plan de obra personalizado te brinda la seguridad que necesitas para disfrutar del proceso. Te ofrecemos claridad, control y la certeza de que tu proyecto se realizará a tiempo y dentro de tu presupuesto.",
     icon: "plan.svg",
   },
   {
-    name: "Certificación de Avance de Obras",
+    name: "Certificación de Avance",
     description:
-      "Certificar una obra es como llevar un control de gastos en tus compras. ¡Sabes exactamente en qué gastas tu dinero! Evita sorpresas desagradables y mantén tus finanzas bajo control.",
+      "¿Crees que tu albañil te pide demasiado? No dejes que los imprevistos afecten tu presupuesto. Con nuestros certificados de avance, tendrás un control total de tus pagos y podrás disfrutar de la tranquilidad de saber que todo está bajo control.",
     icon: "check.svg",
-  },
-  {
-    name: "Mano de obra",
-    description:
-      "Construir sin un análisis de precios es como ir de compras sin lista. ¡Puedes gastar más de lo que tenías pensado! Evita sorpresas desagradables y planifica tu presupuesto con inteligencia.",
-    icon: "apu.svg",
   },
 ];
 

@@ -6,16 +6,12 @@ const Mision = () => {
   return (
     <section
       id="mision"
-      className="h-[640px] md:h-[800px] flex-row grid grid-cols-1 justify-center items-center">
-      <div className="container mx-auto">
+      className="h-[720px] md:h-[700px] flex w-full flex-col xl:px-40 pt-40 pb-10 bg-gris-20">
+      <div className="padding-container max-container flex w-full flex-col gap-14 xl:px-40">
         <div className="flex flex-col items-center">
           <p className="text-color-p text-center md:max-w-[640px]">
-            ¿Sueñas con una casa a tu medida sin complicaciones? En TecniCo,
-            hacemos realidad tus proyectos de construcción en el Valle Central
-            de Catamarca. Con nosotros, tendrás la tranquilidad de un
-            presupuesto controlado, un avance constante y la calidad que
-            esperas, para que puedas disfrutar de tu nuevo hogar sin
-            preocupaciones.
+            ¿Cansado de buscar albañiles confiables? En TecniCo te ofrecemos un
+            servicio completo y personalizado para tu proyecto de construcción.
           </p>
           <h2 className="text-color-h2 pt-8 ">Nuestra misión</h2>
           <p className="text-color-p text-center mt-6 xl:max-w-[640px]">

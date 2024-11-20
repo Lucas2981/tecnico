@@ -161,13 +161,6 @@ body {
     @apply regular-16 text-white;
   }
 
-  /* Hero */
-  .hero-home {
-    @apply absolute right-0 top-0 h-screen w-screen bg-home bg-cover bg-center bg-clip-padding md:-right-28 xl:-top-60;
-  }
-  .bg-home {
-    background-image: url("/casa-plano.jpg");
-  }
   /* Camp */
   .camp-quote {
     @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;

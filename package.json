@@ -2,7 +2,7 @@
   "name": "obra_next",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://lucas2981.github.io/tecnico",
+  "homepage": "tutecnico.com.ar",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
