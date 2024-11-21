@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Button from "./Button";
 import Link from "next/link";
 
@@ -21,13 +20,11 @@ const Mision = () => {
           </p>
         </div>
         <div className="flex justify-center pt-20">
-          <Link
-            href="https://wa.me/5493834225785?text=Hola,%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20TecniCo"
-            target="_blank">
+          <Link href="https://bit.ly/3ZfEJXS" target="_blank">
             <Button
               type="submit"
               icon="wsp.svg"
-              title="Contáctenos"
+              title="Contactanos ahora"
               variant="btn_verde"
             />
           </Link>

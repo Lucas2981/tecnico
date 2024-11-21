@@ -29,19 +29,19 @@ const Navbar = () => {
       <div className="lg:flexCenter hidden">
         <Button
           type="button"
-          title="Log in"
-          icon="user.svg"
+          title="Solicitar presupuesto"
+          // icon="apu.svg"
           variant="btn_verde_text"
         />
       </div>
       {/* Hamburguer */}
-      <Image
+      {/* <Image
         src="menu.svg"
         alt="Menu"
         width={32}
         height={32}
         className="stroke-cyan-500 h-10 inline-block cursor-pointer lg:hidden"
-      />
+      /> */}
     </nav>
   );
 };

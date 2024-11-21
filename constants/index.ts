@@ -1,3 +1,5 @@
+import { title } from "process";
+
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "inicio", label: "Inicio" },
@@ -8,7 +10,7 @@ export const NAV_LINKS = [
   },
   { href: "#servicios", key: "servicios", label: "Servicios" },
   { href: "#precios", key: "precios ", label: "Precios " },
-  { href: "#contactenos", key: "contactenos", label: "Contáctenos" },
+  { href: "#contacto", key: "contacto", label: "Contacto" },
 ];
 
 // CAMP SECTION
@@ -81,3 +83,38 @@ export const SOCIALS = {
     { icon: "youtube.svg", bg: "bg-youtube" },
   ],
 };
+
+export const TESTIMONIALS = [
+  {
+    image: "/chica-1.jpg",
+    name: "Juanita",
+    title: "CEO, Company A",
+    testimonial:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    rating: 5,
+  },
+  {
+    image: "/chica-1.jpg",
+    name: "Chica",
+    title: "Arquitecta, Company B",
+    testimonial:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    rating: 4,
+  },
+  {
+    image: "/chica-1.jpg",
+    name: "Otra chica",
+    title: "CEO, Company A",
+    testimonial:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    rating: 5,
+  },
+  {
+    image: "/chica-1.jpg",
+    name: "Sra. Chica",
+    title: "Arquitecta, Company B",
+    testimonial:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    rating: 4,
+  },
+];
