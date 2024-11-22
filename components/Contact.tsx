@@ -4,9 +4,9 @@ import Button from "./Button";
 
 const Contact = () => {
   return (
-    <section id="contacto" className="">
+    <section id="contacto" className="pb-20">
       <div className="lg:gap-x-10 md:gap-x-5 mx-auto max-w-screen-sm flex flex-grow  md:items-center">
-        <div className="w-full px-4 py-12">
+        <div className="w-full px-4 ">
           <div className="mx-auto max-w-lg text-center">
             <h1 className="text-color-h2 text-center">Contacto</h1>
             <p className="text-color-p text-start py-10 ">

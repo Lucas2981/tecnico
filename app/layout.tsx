@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Escala from "@/components/Escala";
+import FooterSimple from "@/components/FooterSimple";
 
 export const metadata: Metadata = {
   title: "TecniCo constructor",
@@ -21,7 +21,7 @@ export default function RootLayout({
         <Navbar />
         <main className="relative overflow-hidden">{children}</main>
         <Escala />
-        <Footer />
+        <FooterSimple />
       </body>
     </html>
   );

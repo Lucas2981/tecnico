@@ -160,6 +160,9 @@ body {
   .text-color-p {
     @apply regular-16 text-white;
   }
+  .text-color-p-g {
+    @apply regular-16 text-gray-300;
+  }
 
   /* Camp */
   .camp-quote {

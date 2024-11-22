@@ -1,5 +1,3 @@
-import { title } from "process";
-
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "inicio", label: "Inicio" },
@@ -9,7 +7,7 @@ export const NAV_LINKS = [
     label: "Misión",
   },
   { href: "#servicios", key: "servicios", label: "Servicios" },
-  { href: "#precios", key: "precios ", label: "Precios " },
+  { href: "#preguntas", key: "preguntas ", label: "Preguntas " },
   { href: "#contacto", key: "contacto", label: "Contacto" },
 ];
 

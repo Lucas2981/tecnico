@@ -27,12 +27,14 @@ const Navbar = () => {
       </ul>
       {/* Botón */}
       <div className="lg:flexCenter hidden">
-        <Button
-          type="button"
-          title="Solicitar presupuesto"
-          // icon="apu.svg"
-          variant="btn_verde_text"
-        />
+        <Link href="#contacto ">
+          <Button
+            type="button"
+            title="Solicitar presupuesto"
+            // icon="apu.svg"
+            variant="btn_verde_text"
+          />
+        </Link>
       </div>
       {/* Hamburguer */}
       {/* <Image
