@@ -118,3 +118,36 @@ export const TESTIMONIALS = [
     rating: 4,
   },
 ];
+
+export const FAQS = [
+  {
+    title: "¿Cuánto cuesta construir una casa?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    title: "¿Cuánto tiempo dura una obra?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    title: "¿Qué tipo de garantías ofrecen?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    title: "¿Trabajan con algún tipo de seguro?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    title: "¿Cuál es su zona de cobertura?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    title: "¿Ofrecen financiamiento?",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+];

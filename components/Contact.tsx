@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import Image from "next/image";
+import { handleForm } from "../app/action";
 
 const Contact = () => {
   return (
@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="w-full px-4 py-12">
           <div className="mx-auto max-w-lg text-center">
             <h1 className="text-color-h2 text-center">Contacto</h1>
-            <p className="text-color-p text-start py-10 -mx-10">
+            <p className="text-color-p text-start py-10 ">
               ¿Quieres ahorrar tiempo y dinero en tu construcción? Nuestros
               servicios te permiten optimizar recursos y evitar imprevistos.
               ¡Contáctanos y descubrí cómo podemos ayudarte a construir tu
@@ -18,15 +18,20 @@ const Contact = () => {
           </div>
           <div>
             <div className="items-center justify-center">
-              <form action="#" className="flex flex-col space-y-5">
+              <form
+                action={handleForm}
+                // method="POST"
+                className="flex flex-col space-y-5">
                 {/* mx-auto mb-0 mt-8 max-w-md space-y-4 */}
                 <input
+                  name="name"
                   type="text"
                   placeholder="Tu nombre"
                   className="w-full rounded-lg p-4 text-sm shadow-sm"
                 />
                 <div className="relative">
                   <input
+                    name="email"
                     type="email"
                     className="w-full rounded-lg p-4 text-sm shadow-sm "
                     placeholder="Tu correo electrónico"
@@ -49,6 +54,7 @@ const Contact = () => {
                   </span>
                 </div>
                 <input
+                  name="asunto"
                   type="text"
                   placeholder="Asunto"
                   className="w-full rounded-lg p-4 text-sm"
@@ -57,11 +63,12 @@ const Contact = () => {
                   name="message"
                   className="w-full rounded-lg p-4 text-sm"
                   placeholder="Tu mensaje"></textarea>
-
-                <Button
-                  type="submit"
-                  variant="btn_verde_text"
-                  title="Enviar"></Button>
+                <div className="flex items-center justify-end">
+                  <Button
+                    type="submit"
+                    variant="btn_verde_text"
+                    title="Enviar"></Button>
+                </div>
               </form>
             </div>
           </div>
