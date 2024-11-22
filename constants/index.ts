@@ -11,14 +11,6 @@ export const NAV_LINKS = [
   { href: "#contacto", key: "contacto", label: "Contacto" },
 ];
 
-// CAMP SECTION
-export const PEOPLE_URL = [
-  "/person-1.png",
-  "/person-2.png",
-  "/person-3.png",
-  "/person-4.png",
-];
-
 // FEATURES SECTION
 export const features = [
   {
@@ -85,34 +77,42 @@ export const SOCIALS = {
 export const TESTIMONIALS = [
   {
     image: "/chica-1.jpg",
-    name: "Juanita",
-    title: "CEO, Company A",
+    name: "Carla P.",
+    title: "Propietaria",
     testimonial:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "El quincho quedó increíble. TecniCo es la mejor elección para cualquier proyecto. ¡Súper recomendados!",
     rating: 5,
   },
   {
-    image: "/chica-1.jpg",
-    name: "Chica",
-    title: "Arquitecta, Company B",
+    image: "/chica-2.jpg",
+    name: "Andrea P.",
+    title: "Propietaria",
     testimonial:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Desde el inicio hasta el final, la atención de TecniCo fue impecable. ¡Mi casa es perfecta!",
+    rating: 5,
+  },
+  {
+    image: "/chico-3.jpg",
+    name: "Miguel S.",
+    title: "Propietario",
+    testimonial:
+      "No me preocupé por nada durante la construcción. Me mantuvieron informado en todo momento.",
     rating: 4,
   },
   {
-    image: "/chica-1.jpg",
-    name: "Otra chica",
-    title: "CEO, Company A",
+    image: "/chico-2.jpg",
+    name: "Martin A.",
+    title: "Arquitecto, Constructor",
     testimonial:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Mi pasión es el diseño y la obra. Delego la parte técnico-administrativa para poder concentrarme en crear espacios únicos.",
     rating: 5,
   },
   {
-    image: "/chica-1.jpg",
-    name: "Sra. Chica",
-    title: "Arquitecta, Company B",
+    image: "/chico-1.jpg",
+    name: "Gabriel O.",
+    title: "Técnico, Constructor",
     testimonial:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "La claridad en los costos beneficia a todos: mis clientes evitan sorpresas y yo puedo dedicarme a lo que mejor hago. Recomendados!",
     rating: 4,
   },
 ];

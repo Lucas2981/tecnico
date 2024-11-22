@@ -6,7 +6,7 @@ const CardFaqs = () => {
       {FAQS.map((question) => (
         <details
           key={question.title}
-          className="group border-s-8 border-verde-10 bg-gris-20 p-6 [&_summary::-webkit-details-marker]:hidden mb-4 shadow-lg shadow-gris-30 rounded-r-2xl md:rounded-r-3xl">
+          className="group border-s-8 border-verde-10 bg-gris-20 p-6 [&_summary::-webkit-details-marker]:hidden mb-4 shadow-lg shadow-gris-30 rounded-br-2xl md:rounded-br-3xl">
           <summary className="flex cursor-pointer items-center justify-between gap-1.5">
             <h2 className="text-lg font-medium text-color-h5">
               {question.title}
