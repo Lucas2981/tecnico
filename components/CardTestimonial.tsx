@@ -28,7 +28,7 @@ const CardTestimonial = () => {
                 .map((_, i) => (
                   <svg
                     key={i}
-                    xmlns="https://www.w3.org/2000/svg"
+                    xmlns="http://www.w3.org/2000/svg"
                     className="size-5"
                     viewBox="0 0 20 20"
                     fill="currentColor">
