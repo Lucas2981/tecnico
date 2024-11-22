@@ -1,5 +1,3 @@
-"use server";
-
 import { sendEmail } from "@/lib/brevo";
 import { redirect } from "next/navigation";
 
