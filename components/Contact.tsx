@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import { handleForm } from "../app/action";
+// import { handleForm } from "../app/action";
 
 const Contact = () => {
   return (
@@ -19,7 +19,7 @@ const Contact = () => {
           <div>
             <div className="items-center justify-center">
               <form
-                action={handleForm}
+                action=""
                 // method="POST"
                 className="flex flex-col space-y-5">
                 {/* mx-auto mb-0 mt-8 max-w-md space-y-4 */}
