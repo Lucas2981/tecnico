@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="lg:gap-x-10 md:gap-x-5 mx-auto max-w-screen-sm flex flex-grow  md:items-center">
         <div className="w-full px-4 ">
           <div className="mx-auto max-w-lg text-center">
-            <h1 className="text-color-h2 text-center">Contacto</h1>
+            <h2 className="text-color-h2 text-center">Contacto</h2>
             <p className="text-color-p text-start py-10 ">
               ¿Quieres ahorrar tiempo y dinero en tu construcción? Nuestros
               servicios te permiten optimizar recursos y evitar imprevistos.

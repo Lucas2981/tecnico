@@ -5,9 +5,9 @@ import Escala from "@/components/Escala";
 import FooterSimple from "@/components/FooterSimple";
 
 export const metadata: Metadata = {
-  title: "TecniCo constructor - Catamarca",
+  title: "TecniCo | Construcción y reformas en Catamarca",
   description:
-    "Tu maestro mayor de obras, ¿a cuanto esta el m2 de construcción? ¿cuanto sale un albañil? Cotizaciones precisas, planificación detallada, insumos necesarios y certificación de tareas para tu obra en Catamarca.",
+    "¿Tienes un proyecto en mente? Contacta con nosotros. Somos expertos en construcción y reformas en San Fernando del Valle de Catamarca. ¡Solicita tu presupuesto ahora!",
 };
 
 export default function RootLayout({
