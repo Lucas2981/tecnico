@@ -25,7 +25,7 @@ const CardFaqs = () => {
               </svg>
             </span>
           </summary>
-          <p className="mt-4 leading-relaxed text-color-p-g">
+          <p className="mt-4 leading-relaxed text-color-p-g text-justify">
             {question.description}
           </p>
         </details>

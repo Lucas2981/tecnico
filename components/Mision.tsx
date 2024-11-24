@@ -5,7 +5,7 @@ const Mision = () => {
   return (
     <section
       id="mision"
-      className="h-[720px] md:h-[700px] flex w-full flex-col xl:px-40 pt-40 pb-10 bg-gris-20">
+      className="h-[720px] md:h-[700px] flex w-full flex-col xl:px-40 pt-40 pb-20 bg-gris-20">
       <div className="padding-container max-container flex w-full flex-col gap-14 xl:px-40">
         <div className="flex flex-col items-center">
           <p className="text-color-p text-center md:max-w-[640px]">

@@ -1,11 +1,6 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "inicio", label: "Inicio" },
-  {
-    href: "#mision",
-    key: "mision",
-    label: "Misión",
-  },
   { href: "#servicios", key: "servicios", label: "Servicios" },
   { href: "#preguntas", key: "preguntas ", label: "Preguntas " },
   { href: "#contacto", key: "contacto", label: "Contacto" },
@@ -121,31 +116,33 @@ export const FAQS = [
   {
     title: "¿Cuánto cuesta construir una casa?",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "El costo de construir una casa varía según su tamaño, diseño y los materiales que elijas. Para darte un presupuesto preciso, analizamos en detalle tus planos y te ofrecemos un desglose completo de los costos. ¡Así podrás planificar tu inversión con tranquilidad!",
+  },
+  {
+    title: "¿Cómo se calcula el presupuesto de una obra?",
+    description:
+      "Calculamos el presupuesto de tu obra a través de un proceso detallado. Analizamos tus planos y elaboramos un desglose completo de todos los elementos que componen tu proyecto, desde los materiales hasta la mano de obra. Este análisis nos permite determinar el costo exacto de cada tarea y ofrecerte un presupuesto claro y transparente. Nuestro objetivo es brindarte toda la información necesaria para que puedas tomar decisiones informadas sobre tu inversión.",
   },
   {
     title: "¿Cuánto tiempo dura una obra?",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "La duración de una obra depende de varios factores, como el tamaño del proyecto, la complejidad del diseño y la disponibilidad de materiales. Te ofrecemos un cronograma detallado para que sepas cuándo podrás disfrutar de tu nueva casa. ¡Nos adaptamos a tus necesidades y plazos!",
   },
   {
-    title: "¿Qué tipo de garantías ofrecen?",
+    title:
+      "¿Puedo realizar cambios en el diseño cuando la construcción está en progreso?",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "¡Claro que sí! Somos flexibles y nos adaptamos a tus necesidades. Si deseas realizar cambios durante la construcción, te brindaremos un nuevo presupuesto para que conozcas el impacto en el costo total. ¡Tu satisfacción es nuestra prioridad!",
   },
   {
-    title: "¿Trabajan con algún tipo de seguro?",
+    title:
+      "¿Qué gastos adicionales debo considerar además del costo de la construcción?",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Además del costo de la construcción, debes considerar los permisos municipales y los servicios básicos como agua, luz e internet. En algunos casos, pueden surgir gastos adicionales debido a imprevistos en el terreno o cambios en el diseño. ¡Te mantendremos informado en todo momento! ",
   },
   {
     title: "¿Cuál es su zona de cobertura?",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  {
-    title: "¿Ofrecen financiamiento?",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Nos especializamos en construcciones en el Valle Central de Catamarca. Sin embargo, podemos evaluar proyectos en otras zonas. ¡Consúltanos sin compromiso!",
   },
 ];

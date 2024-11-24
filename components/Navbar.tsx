@@ -30,7 +30,7 @@ const Navbar = () => {
         <Link href="#contacto ">
           <Button
             type="button"
-            title="Solicitar presupuesto"
+            title="SOLICITAR CONTACTO"
             // icon="apu.svg"
             variant="btn_verde_text"
           />
