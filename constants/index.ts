@@ -71,7 +71,7 @@ export const SOCIALS = {
 
 export const TESTIMONIALS = [
   {
-    image: "chica-1.jpg",
+    image: "/chica-1.jpg",
     name: "Carla P.",
     title: "Propietaria",
     testimonial:
@@ -79,7 +79,7 @@ export const TESTIMONIALS = [
     rating: 5,
   },
   {
-    image: "chica-2.jpg",
+    image: "/chica-2.jpg",
     name: "Andrea P.",
     title: "Propietaria",
     testimonial:
@@ -87,7 +87,7 @@ export const TESTIMONIALS = [
     rating: 5,
   },
   {
-    image: "chico-3.jpg",
+    image: "/chico-3.jpg",
     name: "Miguel S.",
     title: "Propietario",
     testimonial:
@@ -95,7 +95,7 @@ export const TESTIMONIALS = [
     rating: 4,
   },
   {
-    image: "chico-2.jpg",
+    image: "/chico-2.jpg",
     name: "Martin A.",
     title: "Arquitecto, Constructor",
     testimonial:
@@ -103,7 +103,7 @@ export const TESTIMONIALS = [
     rating: 5,
   },
   {
-    image: "chico-1.jpg",
+    image: "/chico-1.jpg",
     name: "Gabriel O.",
     title: "Técnico, Constructor",
     testimonial:
