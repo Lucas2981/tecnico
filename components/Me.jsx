@@ -1,34 +1,27 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
-import Button from "./Button";
 
 const Me = () => {
   return (
-    <section className="h-[750px] md:h-[700px] pt-10 md:pt-20 overflow-hidden bg-gris-20 ">
+    <section className="h-[840px] md:h-[700px] pt-10 md:pt-20 overflow-hidden bg-gris-20 ">
       <div className="padding-container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid items-center gap-y-8 grid-cols-1 md:grid-cols-2">
           <div>
-            <h2 className="text-color-h2  max-w-2xl">
-              Hola 👋 Mi nombre es <br className="block sm:hidden" />
+            <h2 className="text-color-h2  max-w">
+              Hola! mi nombre es <br className="hidden xm:block" />
               Lucas
             </h2>
             <p className="max-w-xl mt-3 text-color-p text-justify md:mt-8">
-              En TecniCo nuestra misión es transformar la experiencia de
-              construir. ¿Cuántas veces te has preguntado cuánto cuesta
-              realmente un metro cuadrado o dónde encontrar albañiles de
-              confianza? En TecniCo te ofrecemos una solución completa y
-              personalizada, desde la planificación detallada hasta la ejecución
-              de tu proyecto. Con nosotros, podrás construir al menor costo
-              posible, sin sacrificar calidad. Simplificamos los procesos y te
-              brindamos las herramientas necesarias para que estés al tanto de
-              cada etapa de tu obra. ¡Porque construir tu hogar debería ser un
-              proceso emocionante y sin complicaciones!
+              En TecniCo somos tu socio en la construcción. Con nuestra
+              experiencia, te brindamos un servicio completo y personalizado
+              para tu proyecto. Desde el presupuesto hasta la entrega de llaves,
+              te acompañamos en cada paso. ¿Quieres construir con tranquilidad?
+              ¡Confía en nosotros!
             </p>
 
-            <p className="mt-4 text-xl text-color-h5 md:mt-8">
+            <p className="mt-4 text-color-h5 md:mt-8">
               <span className="relative inline-block">
-                <span className="absolute inline-block w-full -bottom-2 h-2 bg-verde-10"></span>
+                <span className="absolute inline-block w-full -bottom-0.5 h-1 bg-verde-10"></span>
                 <span className="relative">¿Tienes una pregunta?</span>
               </span>
               <br className="block sm:hidden" />
@@ -41,6 +34,9 @@ const Me = () => {
                 ahora!
               </a>
             </p>
+            <h4 className="text-color-h4 pt-1 md:pt-5">
+              #ConstruirAlMenorPrecioPosible.
+            </h4>
           </div>
 
           <div className="relative justify-items-center">
@@ -56,16 +52,6 @@ const Me = () => {
           </div>
         </div>
       </div>
-      {/* <div className="flex justify-center pt-20">
-        <Link href="https://bit.ly/3ZfEJXS" target="_blank">
-          <Button
-            type="submit"
-            icon="wsp.svg"
-            title="Escribime ahora"
-            variant="btn_verde"
-          />
-        </Link>
-      </div> */}
     </section>
   );
 };
