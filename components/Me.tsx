@@ -34,9 +34,9 @@ const Me = () => {
                 ahora!
               </a>
             </p>
-            <h4 className="text-color-h4 pt-1 md:pt-5">
+            <p className="text-bold text-white pt-1 md:pt-5">
               #ConstruirAlMenorPrecioPosible.
-            </h4>
+            </p>
           </div>
 
           <div className="relative justify-items-center">

@@ -8,9 +8,9 @@ const CardFaqs = () => {
           key={question.title}
           className="group border-s-8 border-verde-10 bg-gris-20 p-6 [&_summary::-webkit-details-marker]:hidden mb-4 shadow-lg shadow-gris-30 rounded-br-2xl md:rounded-br-3xl">
           <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-            <h2 className="text-lg font-medium text-color-h5">
+            <h3 className="text-lg font-medium text-color-h5">
               {question.title}
-            </h2>
+            </h3>
             <span className="shrink-0 rounded-full bg-verde-10 p-1.5 text-gris-30 sm:p-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { TESTIMONIALS } from "@/constants";
-import test from "node:test";
 
 const CardTestimonial = () => {
   const randomTestimonials = TESTIMONIALS.sort(() => Math.random() - 0.5).slice(
@@ -36,11 +35,11 @@ const CardTestimonial = () => {
                   </svg>
                 ))}
             </div>
-            <dt className="text-color-h3 pb-5 md:py-1">{testimonial.name}</dt>
-            <dd className="text-color-p pt-2 md:pt-2 ">{testimonial.title}</dd>
-            <dd className="text-color-p-g pt-2 md:pt-5 ">
+            <p className="text-color-h3 pb-5 md:py-1">{testimonial.name}</p>
+            <p className="text-color-p pt-2 md:pt-2 ">{testimonial.title}</p>
+            <p className="text-color-p-g pt-2 md:pt-5 ">
               {testimonial.testimonial}
-            </dd>
+            </p>
           </div>
         </blockquote>
       ))}

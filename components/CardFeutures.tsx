@@ -15,10 +15,8 @@ const CardFeutures = () => {
               height={28}
             />
           </div>
-          <dt className="text-color-h3 pb-5 md:pb-1">{feature.name}</dt>
-          <dd className="text-color-p-g pt-2 md:pt-5 ">
-            {feature.description}
-          </dd>
+          <h3 className="text-color-h3 pb-5 md:pb-1">{feature.name}</h3>
+          <p className="text-color-p-g pt-2 md:pt-5 ">{feature.description}</p>
         </div>
       ))}
     </div>
