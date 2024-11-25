@@ -17,6 +17,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="clW8wctaAKt0oqOU-x2YibigIsz2f84eYyiujzRTdWI"
+        />
+      </head>
       <body className="bg-base">
         <Navbar />
         <main className="relative overflow-hidden">{children}</main>
