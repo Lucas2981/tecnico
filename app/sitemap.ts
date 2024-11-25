@@ -1,4 +1,6 @@
-const sitemap = () => {
+import type { MetadataRoute } from "next";
+
+export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: "https://info.tutecnico.com.ar/",
@@ -7,6 +9,4 @@ const sitemap = () => {
       priority: 1,
     },
   ];
-};
-
-export default sitemap;
+}
