@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Me = () => {
   return (
-    <section className="h-[840px] md:h-[700px] pt-10 md:pt-20 overflow-hidden bg-gris-20 ">
+    <section className="h-[740px] md:h-[700px] pt-10 md:pt-20 overflow-hidden bg-gris-20 ">
       <div className="padding-container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid items-center gap-y-8 grid-cols-1 md:grid-cols-2">
           <div>
@@ -11,7 +11,7 @@ const Me = () => {
               Hola! mi nombre es <br className="hidden xm:block" />
               Lucas
             </h2>
-            <p className="max-w-xl mt-3 text-color-p text-justify md:mt-8">
+            <p className="max-w-xl mt-3 text-color-p md:text-justify md:mt-8">
               En TecniCo somos tu socio en la construcción. Con nuestra
               experiencia, te brindamos un servicio completo y personalizado
               para tu proyecto. Desde el presupuesto hasta la entrega de llaves,
@@ -29,7 +29,7 @@ const Me = () => {
               <a
                 href="https://bit.ly/3ZfEJXS"
                 target="_blank"
-                title=""
+                title="Escribeme"
                 className="transition-all duration-200 text-verde-10 hover:underline">
                 ahora!
               </a>

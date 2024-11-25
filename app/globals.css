@@ -140,7 +140,7 @@ body {
     @apply bg-gradient-to-r from-blue-600 to-rose-600 bg-clip-text text-transparent;
   }
   .text-color-h1 {
-    @apply bold-59 lg:bold-88 text-white;
+    @apply bold-40 lg:bold-88 text-white;
   }
   .text-color-h2 {
     @apply bold-40 lg:bold-64 text-white;

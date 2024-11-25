@@ -7,7 +7,7 @@ import FooterSimple from "@/components/FooterSimple";
 export const metadata: Metadata = {
   title: "TecniCo | Construcción y reformas en Catamarca",
   description:
-    "¿Tienes un proyecto en mente? Contacta con nosotros. Somos expertos en construcción y reformas en San Fernando del Valle de Catamarca. ¡Solicita tu presupuesto ahora!",
+    "¿Tienes un proyecto en mente? Contacta con nosotros. Construcción y reformas en San Fernando del Valle de Catamarca. ¡Solicita tu presupuesto ahora!",
 };
 
 export default function RootLayout({
