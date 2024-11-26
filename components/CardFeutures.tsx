@@ -8,12 +8,7 @@ const CardFeutures = () => {
       {features.map((feature) => (
         <div key={feature.name} className="relative ">
           <div className="relative left-0 -top-5 flex h-16 w-16 items-center justify-center rounded-lg bg-verde-10">
-            <Image
-              src={feature.icon}
-              alt={feature.icon}
-              width={28}
-              height={28}
-            />
+            {feature.icon && <feature.icon size={38} color="#454647" />}
           </div>
           <h3 className="text-color-h3 pb-5 md:pb-1">{feature.name}</h3>
           <p className="text-color-p-g pt-2 md:pt-5 ">{feature.description}</p>

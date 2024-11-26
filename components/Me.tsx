@@ -43,7 +43,7 @@ const Me = () => {
             <div className="h-[200px] w-[200px] lg:h-[300px] lg:w-[300px] overflow-hidden border-8 border-verde-10 rounded-full bg-gris-30 shadow-xl hover:shadow-verde-10 ">
               <Image
                 className="relative grayscale h-[200px] w-[200px] lg:h-[300px] lg:w-[300px] "
-                src="/image.avif"
+                src="/Lucas.avif"
                 alt="Lucas"
                 width={200}
                 height={200}

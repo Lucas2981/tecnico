@@ -5,6 +5,7 @@ import Image from "next/image";
 import { NAV_LINKS } from "@/constants";
 import Button from "./Button";
 import React from "react";
+import { VscCallOutgoing } from "react-icons/vsc";
 
 const Navbar = () => {
   return (
@@ -31,7 +32,7 @@ const Navbar = () => {
           <Button
             type="button"
             title="SOLICITAR CONTACTO"
-            // icon="apu.svg"
+            Icon={VscCallOutgoing}
             variant="btn_verde_text"
           />
         </Link>

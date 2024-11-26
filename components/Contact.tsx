@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-// import { handleForm } from "../app/action";
+import { FiSend } from "react-icons/fi";
 
 const Contact = () => {
   return (
@@ -67,7 +67,8 @@ const Contact = () => {
                   <Button
                     type="submit"
                     variant="btn_verde_text"
-                    title="Enviar"></Button>
+                    title="Enviar"
+                    Icon={FiSend}></Button>
                 </div>
               </form>
             </div>

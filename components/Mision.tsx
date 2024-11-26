@@ -1,5 +1,6 @@
 import Button from "./Button";
 import Link from "next/link";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const Mision = () => {
   return (
@@ -23,7 +24,7 @@ const Mision = () => {
           <Link href="https://bit.ly/3ZfEJXS" target="_blank">
             <Button
               type="submit"
-              icon="wsp.svg"
+              Icon={IoLogoWhatsapp}
               title="Contactanos ahora"
               variant="btn_verde"
             />

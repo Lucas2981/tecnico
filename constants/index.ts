@@ -1,3 +1,8 @@
+import { BiMath } from "react-icons/bi";
+import { FaListCheck } from "react-icons/fa6";
+import { LuBarChartHorizontal } from "react-icons/lu";
+import { TbZoomMoney } from "react-icons/tb";
+
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "inicio", label: "Inicio" },
@@ -12,25 +17,25 @@ export const features = [
     name: "Cotización Detallada",
     description:
       "¿Sueñas con una nueva casa o una remodelación espectacular? No dejes que los imprevistos arruinen tus planes. Con nuestro servicio de presupuestos personalizados, tendrás el control total de tu proyecto desde el principio.",
-    icon: "money.svg",
+    icon: TbZoomMoney,
   },
   {
     name: "Cálculo de Insumos",
     description:
       "¿Construir de manera eficiente y sin contratiempos? Nuestro detalle de insumos te brinda la información que necesitas para optimizar tus compras y evitar pérdidas de tiempo.",
-    icon: "list-check.svg",
+    icon: BiMath,
   },
   {
     name: "Planificación Eficiente",
     description:
       "¿Una construcción sin sobresaltos? Un plan de obra personalizado te brinda la seguridad que necesitas para disfrutar del proceso. Te ofrecemos claridad, control y la certeza de que tu proyecto se realizará a tiempo y dentro de tu presupuesto.",
-    icon: "plan.svg",
+    icon: LuBarChartHorizontal,
   },
   {
     name: "Certificación de Avance",
     description:
       "¿Crees que tu albañil te pide demasiado? No dejes que los imprevistos afecten tu presupuesto. Con nuestros certificados de avance, tendrás un control total de tus pagos y podrás disfrutar de la tranquilidad de saber que todo está bajo control.",
-    icon: "check.svg",
+    icon: FaListCheck,
   },
 ];
 
