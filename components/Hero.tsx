@@ -7,16 +7,31 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-gris-30/75 to-gris-20/50 z-10"></div>
       <div className=" h-[740px] md:h-[940px] relative mx-auto max-w-screen-4xl px-4 py-2 sm:py-24 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
         {/* <div className="border-8 border-verde-10 h-[740px] md:h-[940px] relative mx-auto max-w-screen-xl px-4 py-2 sm:py-24 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"> */}
-        <Image
+        {/* <Image
           className="absolute inset-0 h-full w-full object-cover object-center grayscale"
           src={casa_plano}
           alt="casa"
           width={0}
           height={0}
           sizes="100vw"
+          priority
+        /> */}
+
+        <Image
+          className="grayscale"
+          alt="Mountains"
+          src={casa_plano}
+          placeholder="blur"
+          quality={100}
+          priority={true}
+          fill
+          sizes="100vw"
+          style={{
+            objectFit: "cover",
+          }}
         />
 
-        <div className="container relative z-10 mx-auto">
+        <div className="container max-w-7xl relative z-10 mx-auto">
           <h1 className="text-color-h1 px-10 pt-40 md:pt-20 text-start">
             <span className="text-start bold-40 lg:bold-88 text-white">
               Tecni
