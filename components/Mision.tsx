@@ -21,7 +21,10 @@ const Mision = () => {
           </p>
         </div>
         <div className="flex justify-center pt-20">
-          <Link href="https://bit.ly/3ZfEJXS" target="_blank">
+          <Link
+            href="https://bit.ly/3ZfEJXS"
+            target="_blank"
+            title="Contactanos">
             <Button
               type="submit"
               Icon={IoLogoWhatsapp}

@@ -1,5 +1,4 @@
 import CardFeutures from "./CardFeutures";
-import { LuCloud } from "react-icons/lu";
 
 const Features = () => {
   return (

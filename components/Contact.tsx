@@ -74,18 +74,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        {/* <div className="relative ">
-          <Image
-            alt="Imagen de ejemplo"
-            src="/send-email.jpg"
-            className="bg-cover grayscale sm:rounded-r-3xl shadow-lg shadow-gris-30"
-            style={{
-              objectFit: "cover",
-            }}
-            width={1100}
-            height={500}
-          />
-        </div> */}
       </div>
     </section>
   );
