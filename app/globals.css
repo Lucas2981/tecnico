@@ -193,7 +193,7 @@ body {
     @apply bg-red-600;
   }
   /* Hero */
-  #inicio::before {
+  /* #inicio::before {
     content: "";
     position: absolute;
     top: 0;
@@ -204,7 +204,7 @@ body {
     background-size: cover;
     background-position: center;
     filter: grayscale(100%);
-  }
+  } */
   /* Contact */
   .bg-contacto {
     max-height: 100%;
