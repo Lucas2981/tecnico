@@ -191,18 +191,6 @@ body {
     @apply bg-red-600;
   }
   /* Hero */
-  /* #inicio::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("/casa-plano.avif");
-    background-size: cover;
-    background-position: center;
-    filter: grayscale(100%);
-  } */
   /* Contact */
   .bg-contacto {
     max-height: 100%;

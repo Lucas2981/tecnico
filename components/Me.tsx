@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Me = () => {
   return (
-    <section className="h-[740px] md:h-[700px] pt-10 md:pt-20 overflow-hidden bg-gris-20 ">
+    <section className="h-screen pt-10 md:pt-20 overflow-hidden bg-gris-20 ">
       <div className="padding-container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid items-center gap-y-8 grid-cols-1 md:grid-cols-2">
           <div>
@@ -40,13 +40,13 @@ const Me = () => {
           </div>
 
           <div className="relative justify-items-center">
-            <div className="h-[200px] w-[200px] lg:h-[300px] lg:w-[300px] overflow-hidden border-8 border-verde-10 rounded-full bg-gris-30 shadow-xl hover:shadow-verde-10 ">
+            <div className="h-[100px] w-[100px] lg:h-[300px] lg:w-[300px] overflow-hidden border-2 border-verde-10 rounded-full bg-gris-30 shadow-xl hover:shadow-verde-10 ">
               <Image
-                className="relative grayscale h-[200px] w-[200px] lg:h-[300px] lg:w-[300px] "
+                className="relative grayscale h-[100px] w-[100px] lg:h-[300px] lg:w-[300px] "
                 src="/Lucas.avif"
                 alt="Lucas"
                 width={200}
-                height={200}
+                height={0}
               />
             </div>
           </div>
