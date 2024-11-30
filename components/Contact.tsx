@@ -1,8 +1,44 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Button from "./Button";
 import { FiSend } from "react-icons/fi";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch("/api/send", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          subject,
+          message,
+        }),
+      });
+      console.log("Datos del formulario:", { name, email, subject, message });
+
+      if (!response.ok) {
+        throw new Error("Error sending email");
+      }
+
+      // Handle success
+    } catch (error) {
+      console.error(error);
+      // Handle error
+    }
+  };
+
   return (
     <section id="contacto" className="pb-20">
       <div className="lg:gap-x-10 md:gap-x-5 mx-auto max-w-screen-sm flex flex-grow  md:items-center">
@@ -18,21 +54,23 @@ const Contact = () => {
           </div>
           <div>
             <div className="items-center justify-center">
-              <form
-                action=""
-                // method="POST"
-                className="flex flex-col space-y-5">
-                {/* mx-auto mb-0 mt-8 max-w-md space-y-4 */}
+              <form onSubmit={handleSubmit} className="flex flex-col space-y-5">
                 <input
                   name="name"
                   type="text"
+                  autoComplete="name"
                   placeholder="Tu nombre"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   className="w-full rounded-lg p-4 text-sm shadow-sm"
                 />
                 <div className="relative">
                   <input
                     name="email"
                     type="email"
+                    autoComplete="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                     className="w-full rounded-lg p-4 text-sm shadow-sm "
                     placeholder="Tu correo electrónico"
                   />
@@ -56,11 +94,15 @@ const Contact = () => {
                 <input
                   name="asunto"
                   type="text"
+                  value={subject}
+                  onChange={(e) => setSubject(e.target.value)}
                   placeholder="Asunto"
                   className="w-full rounded-lg p-4 text-sm"
                 />
                 <textarea
                   name="message"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   className="w-full rounded-lg p-4 text-sm"
                   placeholder="Tu mensaje"></textarea>
                 <div className="flex items-center justify-end">

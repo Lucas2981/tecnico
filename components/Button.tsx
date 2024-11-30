@@ -13,7 +13,7 @@ const Button = ({ type, title, Icon, variant }: ButtonProps) => {
       className={`flexCenter gap-3 px-4 py-2 ${variant} hover:scale-105`}
       type={type}>
       {Icon && <Icon size={22} />}
-      <label className="bold-16 whitespace-nowrap">{title}</label>
+      <span className="bold-16 whitespace-nowrap">{title} </span>
     </button>
   );
 };
