@@ -161,7 +161,9 @@ body {
   .text-color-p-g {
     @apply regular-16 text-gray-300;
   }
-
+  .text-color-a {
+    @apply md:bold-28 bold-20 text-verde-10;
+  }
   /* Camp */
   .camp-quote {
     @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;

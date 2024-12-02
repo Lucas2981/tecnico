@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Me = () => {
   return (
-    <section className="h-screen pt-10 md:pt-20 overflow-hidden bg-gris-20 ">
+    <section className="h-screen pt-10 md:pt-20 overflow-hidden ">
       <div className="padding-container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid items-center gap-y-8 grid-cols-1 md:grid-cols-2">
           <div>
@@ -30,7 +30,7 @@ const Me = () => {
                 href="https://bit.ly/3ZfEJXS"
                 target="_blank"
                 title="Escribeme"
-                className="transition-all duration-200 text-verde-10 hover:underline">
+                className="transition-all duration-200 text-color-a hover:underline">
                 ahora!
               </a>
             </p>
@@ -40,7 +40,7 @@ const Me = () => {
           </div>
 
           <div className="relative justify-items-center">
-            <div className="h-[100px] w-[100px] lg:h-[300px] lg:w-[300px] overflow-hidden border-2 border-verde-10 rounded-full bg-gris-30 shadow-xl hover:shadow-verde-10 ">
+            <div className="h-[100px] w-[100px] lg:h-[300px] lg:w-[300px] overflow-hidden  rounded-full bg-gris-20 ">
               <Image
                 className="relative grayscale h-[100px] w-[100px] lg:h-[300px] lg:w-[300px] "
                 src="/Lucas.avif"
