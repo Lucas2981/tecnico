@@ -40,9 +40,9 @@ const Me = () => {
           </div>
 
           <div className="relative justify-items-center">
-            <div className="h-[100px] w-[100px] lg:h-[300px] lg:w-[300px] overflow-hidden  rounded-full bg-gris-20 ">
+            <div className="h-[155px] w-[150px] lg:h-[310px] lg:w-[300px] overflow-hidden  rounded-full bg-gris-20 ">
               <Image
-                className="relative grayscale h-[100px] w-[100px] lg:h-[300px] lg:w-[300px] "
+                className="relative grayscale h-[155px] w-[150px] lg:h-[310px] lg:w-[300px] "
                 src="/Lucas.avif"
                 alt="Lucas"
                 width={200}
