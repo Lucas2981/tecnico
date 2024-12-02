@@ -47,9 +47,10 @@ const Contact = () => {
             <h2 className="text-color-h2 text-center">Contacto</h2>
             <p className="text-color-p text-start py-10 ">
               ¿Quieres ahorrar tiempo y dinero en tu construcción? Nuestros
-              servicios te permiten optimizar recursos y evitar imprevistos.
-              ¡Contáctanos y descubrí cómo podemos ayudarte a construir tu
-              sueño!
+              servicios te permiten optimizar recursos y evitar imprevistos. ¡Si
+              tu proyecto lo vas a construir en Catamarca estamos listos para
+              ayudarte! Contáctanos y descubrí cómo podemos ayudarte a construir
+              tu sueño!
             </p>
           </div>
           <div>

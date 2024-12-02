@@ -16,7 +16,7 @@ export const features = [
   {
     name: "Cotización Detallada",
     description:
-      "¿Sueñas con una nueva casa o una remodelación espectacular? No dejes que los imprevistos arruinen tus planes. Con nuestro servicio de presupuestos personalizados, tendrás el control total de tu proyecto desde el principio.",
+      "¿Sueñas con una nueva casa o una reformas en la actual? No dejes que los imprevistos arruinen tus planes. Con nuestro servicio de presupuestos personalizados, tendrás el control total de tu proyecto desde el principio.",
     icon: TbZoomMoney,
   },
   {
@@ -53,6 +53,41 @@ export const FOOTER_LINKS = [
       "Planificaciones",
       "Certificaciones",
     ],
+  },
+];
+
+export const features2 = [
+  {
+    "@type": "Service",
+    name: "Cotización Detallada",
+    description:
+      "¿Sueñas con una nueva casa o una reformas en la actual? No dejes que los imprevistos arruinen tus planes. Con nuestro servicio de presupuestos personalizados, tendrás el control total de tu proyecto desde el principio.",
+    icon: TbZoomMoney,
+    url: "#",
+  },
+  {
+    "@type": "Service",
+    name: "Cálculo de Insumos",
+    description:
+      "¿Construir de manera eficiente y sin contratiempos? Nuestro detalle de insumos te brinda la información que necesitas para optimizar tus compras y evitar pérdidas de tiempo.",
+    icon: BiMath,
+    url: "#",
+  },
+  {
+    "@type": "Service",
+    name: "Planificación Eficiente",
+    description:
+      "¿Una construcción sin sobresaltos? Un plan de obra personalizado te brinda la seguridad que necesitas para disfrutar del proceso. Te ofrecemos claridad, control y la certeza de que tu proyecto se realizará a tiempo y dentro de tu presupuesto.",
+    icon: LuBarChartHorizontal,
+    url: "#",
+  },
+  {
+    "@type": "Service",
+    name: "Certificación de Avance",
+    description:
+      "¿Crees que tu albañil te pide demasiado? No dejes que los imprevistos afecten tu presupuesto. Con nuestros certificados de avance, tendrás un control total de tus pagos y podrás disfrutar de la tranquilidad de saber que todo está bajo control.",
+    icon: FaListCheck,
+    url: "#",
   },
 ];
 
