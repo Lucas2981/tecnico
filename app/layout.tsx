@@ -29,6 +29,10 @@ export default function RootLayout({
           name="google-site-verification"
           content="clW8wctaAKt0oqOU-x2YibigIsz2f84eYyiujzRTdWI"
         />
+        <script
+          defer
+          src="https://umani.tutecnico.com.ar/script.js"
+          data-website-id="d0de678d-1104-4b94-ad08-0e5d0c50913b"></script>
       </head>
       <body className="bg-base">
         <Navbar />
