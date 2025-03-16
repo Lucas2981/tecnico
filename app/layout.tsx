@@ -31,8 +31,8 @@ export default function RootLayout({
         />
         <script
           defer
-          src="https://umani.tutecnico.com.ar/script.js"
-          data-website-id="d0de678d-1104-4b94-ad08-0e5d0c50913b"></script>
+          src="https://umami.tutecnico.com.ar/script.js"
+          data-website-id="6f079265-e51a-486c-a49e-7fe5548230f7"></script>
       </head>
       <body className="bg-base">
         <Navbar />
